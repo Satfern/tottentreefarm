@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+}
+
+
+#logo {
+    height: 200px;
+    width: 350px;
+}
+
+#banner {
+    background-color: #607938;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.photos {
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#info {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#bio {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#location-link {
+    text-decoration: none;
+    color: #CE7F20;
+}
+
+.flex-p {
+   margin: 0;
+}
+
+footer {
+    background-color: #607938;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+
+hr {
+    max-width: 60%;
+    border: none;
+    height: 26px;
+    background-image: url('Images/tree-fill.svg');
+    background-size: contain;
+
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+    .photos {
+        height: 175px;
+    }
+
+    #info {
+        display: block;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .photos {
+        height: 200px;
+    }
+
+    #info {
+        display: block;
+    }
+}
